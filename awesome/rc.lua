@@ -111,6 +111,20 @@ menubar.utils.terminal = terminal -- Set the terminal for applications that requ
 -- }}}
 
 -- {{{ Wibox
+
+-- Create a battery widget
+mybatwidget = wibox.widget.textbox()
+mybatwidget:set_text("N/A")
+mybatwidgettimer = timer({ timeout = 5 })
+mybatwidgettimer:connect_signal("timeout", 
+    function()
+	fh = assert(io.popen("acpi | cut -d ',' -f 2"))
+	mybatwidget:set_text(fh:read("*l"))
+	fh:close()
+    end
+)
+mybatwidgettimer:start()
+
 -- Create a textclock widget
 mytextclock = awful.widget.textclock()
 
@@ -193,6 +207,7 @@ for s = 1, screen.count() do
     -- Widgets that are aligned to the right
     local right_layout = wibox.layout.fixed.horizontal()
     if s == 1 then right_layout:add(wibox.widget.systray()) end
+    right_layout:add(mybatwidget)
     right_layout:add(mytextclock)
     right_layout:add(mylayoutbox[s])
 
