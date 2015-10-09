@@ -5,16 +5,6 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# Allow autocompletion for sudo/man prefixe
-if [ "$PS1" ]; then
-	complete -cf sudo
-	complete -cf man
-fi
-
-if [ -f /etc/bash_completion ]; then
-	/etc/bash_completion
-fi
-
 # Coloring
 # Enable coloring for Termite
 eval $(dircolors ~/.dircolors)
@@ -55,4 +45,5 @@ alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
 # Default folder for wget
 alias wget='wget --directory-prefix=/home/brick/Téléchargements'
 
+# PS1
 PS1='\[$(tput bold)\][\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;6m\]\u\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;6m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;202m\]\W\[$(tput bold)\]\[$(tput bold)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\\$ \[$(tput sgr0)\]'
