@@ -33,6 +33,8 @@ export LESS_TERMCAP_so=$(printf '\e[1;44;1m')
 # Exports
 # Default editor
 export VISUAL=vim
+# Default browser
+export BROWSER=chromium
 
 # Aliases
 alias ls='ls --color=auto'
