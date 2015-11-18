@@ -43,6 +43,7 @@ alias pingc='ping 8.8.8.8 -c 10'
 alias stow='stow -d ~/dotfiles'
 alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
 alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
+alias ..='cd ..'
 
 # Default folder for wget
 alias wget='wget --directory-prefix=/home/brick/Téléchargements'
