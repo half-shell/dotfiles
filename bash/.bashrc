@@ -44,6 +44,7 @@ alias stow='stow -d ~/dotfiles'
 alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
 alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
 alias ..='cd ..'
+alias dgnetctl='NETCTL_DEBUG=yes'
 
 # Default folder for wget
 alias wget='wget --directory-prefix=/home/brick/Téléchargements'
