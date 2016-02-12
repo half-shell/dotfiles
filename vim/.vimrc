@@ -116,7 +116,7 @@ set mouse=a
 " "press <Enter> to continue"
 set cmdheight=2
  
-" Display line numbers on the left
+" Display line numbers on the left so that the current line is 0
 set relativenumber
  
 " Quickly time out on keycodes, but never time out on mappings
@@ -124,6 +124,13 @@ set notimeout ttimeout ttimeoutlen=200
  
 " Use <F11> to toggle between 'paste' and 'nopaste'
 set pastetoggle=<F11>
+
+" Set the current line to be highlighted
+set cursorline
+
+" Set the number of line above and under the current line
+set scrolloff=20
+
  
  
 "------------------------------------------------------------
