@@ -11,7 +11,7 @@ local beautiful = require("beautiful")
 local naughty = require("naughty")
 local menubar = require("menubar")
 -- Enabling transparency
-awful.util.spawn_with_shell("xcompmgr &")
+-- awful.util.spawn_with_shell("xcompmgr &")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
