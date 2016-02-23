@@ -12,3 +12,15 @@ up to date since it's the config files i'm using all the time. My main workspace
 * Widgets
 
 ## Vim config
+####ToDos
+* Add support for plugins
+
+##### Plugins :
+* YouCompleteMe (autocompletion)
+* FZF (blazing fast search utility)
+
+##Bash config
+
+##Termite config
+
+## IRSSI config
