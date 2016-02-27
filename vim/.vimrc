@@ -5,16 +5,34 @@
 "              If you're a more advanced user, building your own .vimrc based
 "              on this file is still a good idea.
  
+" Set 'nocompatible' to ward off unexpected things that your distro might
+" have made, as well as sanely reset options when re-sourcing .vimrc
+set nocompatible
+
+"------------------------------------------------------------
+" Vundle initialization {{{1
+" Required for vundle, initialized again later
+filetype off 
+
+" Set the runtime path to include Vundle and initialize
+set rtp+=~/dotfiles/vim/bundle/
+call vundle#begin()
+ 
+" Let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+" ----
+" Actual plugins to load
+"
+" ----
+" End of Vundle declaration
+call vundle#end()
+
 "------------------------------------------------------------
 " Features {{{1
 "
 " These options and commands enable some very useful features in Vim, that
 " no user should have to live without.
- 
-" Set 'nocompatible' to ward off unexpected things that your distro might
-" have made, as well as sanely reset options when re-sourcing .vimrc
-set nocompatible
- 
 " Attempt to determine the type of a file based on its name and possibly its
 " contents. Use this to allow intelligent auto-indenting for each filetype,
 " and for plugins that are filetype specific.
@@ -22,7 +40,6 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
- 
  
 "------------------------------------------------------------
 " Must have options {{{1
