@@ -157,7 +157,7 @@ aliases = {
   UNSET = "set -clear";
   RESET = "set -default";
   # Added alias for spliting window
-  WS = "window show $0"
+  WS = "window show $0";
 };
 
 statusbar = {
