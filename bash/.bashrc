@@ -40,14 +40,13 @@ export BROWSER=chromium
 alias ls='ls --color=auto'
 alias ll='ls -al --color=auto'
 alias pingc='ping 8.8.8.8 -c 10'
-alias stow='stow -d ~/dotfiles'
+alias stow='stow -d ~/dotfiles' # default file for stow
 alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
 alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
 alias ..='cd ..'
-alias dgnetctl='NETCTL_DEBUG=yes netctl'
-
-# Default folder for wget
-alias wget='wget --directory-prefix=/home/brick/Téléchargements'
+alias dgnetctl='NETCTL_DEBUG=yes netctl' # Enabling debug with netctl
+alias grep='grep -i' # line number option
+alias wget='wget --directory-prefix=/home/brick/Téléchargements' # Default folder for wget
 
 # PS1
 PS1='\[$(tput bold)\][\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;6m\]\u\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;6m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;202m\]\W\[$(tput bold)\]\[$(tput bold)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\\$ \[$(tput sgr0)\]'

@@ -179,5 +179,17 @@ map Y y$
 " Map <C-L> (redraw screen) to also turn off search highlighting until the
 " next search
 nnoremap <C-L> :nohl<CR><C-L>
+
+" Easier split creation and navigation {{{1
+"
+" This allows to switch between splits only with ctrl + j,k,l or h
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Sets the default split opening behaviour
+set splitbelow
+set splitright
  
 "------------------------------------------------------------
