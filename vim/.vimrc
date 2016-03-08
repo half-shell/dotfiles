@@ -1,9 +1,11 @@
-" URL: http://vim.wikia.com/wiki/Example_vimrc
-" Authors: http://vim.wikia.com/wiki/Vim_on_Freenode
-" Description: A minimal, but feature rich, example .vimrc. If you are a
-"              newbie, basing your first .vimrc on this file is a good choice.
-"              If you're a more advanced user, building your own .vimrc based
-"              on this file is still a good idea.
+" This .vimrc is based on http://vim.wikia.com/wiki/Example_vimrc.
+" URL: https://github.com/half-shell/dotfiles/blob/master/vim/.vimrc
+" Authors: https://github.com/half-shell/
+" Description: This .vimrc, although based on the example .vimrc given by the
+" vim wikia, is now heavily modified enough to be considered as a standalone.
+" It still is under development, and will be for a pretty long time. It uses
+" vundle as a plugin manager, for which you shouldn't worry too much as it is
+" considered a git submodule and as it will be managed easily with git.
  
 " Set 'nocompatible' to ward off unexpected things that your distro might
 " have made, as well as sanely reset options when re-sourcing .vimrc
