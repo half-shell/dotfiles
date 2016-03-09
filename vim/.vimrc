@@ -17,18 +17,15 @@ set nocompatible
 filetype off 
 
 " Set the runtime path to include Vundle and initialize
-set rtp+=~/dotfiles/vim/bundle/
-call vundle#begin()
+" set rtp+=~/dotfiles/vim/bundle/
+call plug#begin('~/dotfiles/vim/.vim/plugged')
  
-" Let Vundle manage Vundle
-Plugin 'VundleVim/Vundle.vim'
-
 " ----
 " Actual plugins to load
 "
 " ----
 " End of Vundle declaration
-call vundle#end()
+call plug#end()
 
 "------------------------------------------------------------
 " Features {{{1
@@ -42,6 +39,9 @@ filetype indent plugin on
  
 " Enable syntax highlighting
 syntax on
+
+"Sets colorscheme
+colorscheme desert
  
 "------------------------------------------------------------
 " Must have options {{{1
