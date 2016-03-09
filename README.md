@@ -25,10 +25,13 @@ I'm using [vim-plug] as my plugin manager, since Vundle is not maintained anymor
 * autocompletion (YouCompleteMe?)
 * search utility (FZF?)
 * indent
+* autoclose surrounders
 
 ##Bash config
 
 ##Termite config
+#### ToDos
+* Change font (maybe)
 
 ## IRSSI config
 
