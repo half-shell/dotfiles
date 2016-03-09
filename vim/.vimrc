@@ -23,6 +23,10 @@ call plug#begin('~/dotfiles/vim/.vim/plugged')
 " ----
 " Actual plugins to load
 "
+" Lightline
+" The statusline, configured later on
+Plug 'itchyny/lightline.vim'
+"
 " ----
 " End of Vundle declaration
 call plug#end()
