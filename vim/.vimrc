@@ -141,6 +141,8 @@ set cmdheight=2
  
 " Display line numbers on the left so that the current line is 0
 set relativenumber
+" But still give the current line number
+set number
  
 " Quickly time out on keycodes, but never time out on mappings
 set notimeout ttimeout ttimeoutlen=200
@@ -152,7 +154,7 @@ set pastetoggle=<F11>
 set cursorline
 
 " Set the number of line above and under the current line
-set scrolloff=20
+set scrolloff=15
 
  
  
@@ -197,5 +199,17 @@ nnoremap <C-H> <C-W><C-H>
 " Sets the default split opening behaviour
 set splitbelow
 set splitright
+
+"------------------------------------------------------------
+" Plugins {{{1
+"
+" Lightline
+" Removes the extraneous default vim mode information since it is on the
+" statusline
+set noshowmode
+
+" Options
+let g:Lightline = {
+  \}
  
 "------------------------------------------------------------
