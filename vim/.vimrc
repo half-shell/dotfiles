@@ -12,9 +12,8 @@
 set nocompatible
 
 "------------------------------------------------------------
-" Vundle initialization {{{1
-" Required for vundle, initialized again later
-filetype off 
+" plug-vim initialization {{{1
+" Initialization and setup of plugins by plug-vim
 
 " Set the runtime path to include Vundle and initialize
 " set rtp+=~/dotfiles/vim/bundle/
