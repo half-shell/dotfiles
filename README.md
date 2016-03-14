@@ -35,14 +35,16 @@ alias stow='stow -d path/to/dotfiles'
 * Widgets
 
 ## Vim config
-
+It is advised to read the config file heavily commented so you can understand what is going on.
+#### Advisory
+Be also aware that vim is configured to gather the swap files in the ~/.tmp directory, which you have to create. Keep in mind that if you don't, vim won't produce any swap file.
 #### Plug-in manager
 I'm using [vim-plug] as my plugin manager, since Vundle is not maintained anymore, and updates/installations aren't done as quickly.
 [vim-plug] is managed as a git submodule of my dotfiles, and  will be kept updated that way.
 #### ToDos
 * ~~Add support for plugins~~
 
-##### Plugins :
+##### Plugins
 * autocompletion (YouCompleteMe?)
 * search utility (FZF?)
 * indent

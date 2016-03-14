@@ -149,12 +149,16 @@ set notimeout ttimeout ttimeoutlen=200
 " Use <F11> to toggle between 'paste' and 'nopaste'
 set pastetoggle=<F11>
 
-" Set the current line to be highlighted
+" Show the current line as highlighted
 set cursorline
 
-" Set the number of line above and under the current line
+"  Sets the number of line above and under the current line to 15
 set scrolloff=15
 
+" Gather all swap file in the ~/tmp directory.
+" Note that the tmp directory has to exist for this to work,
+" otherwise vim won't create any swap files.
+set dir=~/.tmp
  
  
 "------------------------------------------------------------
