@@ -43,17 +43,18 @@ I'm using [vim-plug] as my plugin manager, since Vundle is not maintained anymor
 [vim-plug] is managed as a git submodule of my dotfiles, and  will be kept updated that way.
 To get all that vim plugin goodness going, all you have to do is get into vim and do a 
 ```
-PlugInstall
+:PlugInstall
 ```
 For more information about vimplug and how to manage your plugins, just head to [vim-plug].
 #### ToDos
 * ~~Add support for plugins~~
-
-##### Plugins
 * autocompletion (YouCompleteMe?)
 * search utility (FZF?)
 * indent
-* autoclose surrounders
+
+##### Plugins
+* lightline (status line)
+* auto-pairs (autoclose surrounders)
 
 ##Bash config
 
