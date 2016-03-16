@@ -41,6 +41,11 @@ Be also aware that vim is configured to gather the swap files in the ~/.tmp dire
 #### Plug-in manager
 I'm using [vim-plug] as my plugin manager, since Vundle is not maintained anymore, and updates/installations aren't done as quickly.
 [vim-plug] is managed as a git submodule of my dotfiles, and  will be kept updated that way.
+To get all that vim plugin goodness going, all you have to do is get into vim and do a 
+```
+PlugInstall
+```
+For more information about vimplug and how to manage your plugins, just head to [vim-plug].
 #### ToDos
 * ~~Add support for plugins~~
 

@@ -25,6 +25,7 @@ call plug#begin('~/dotfiles/vim/.vim/plugged')
 " Lightline
 " The statusline, configured later on
 Plug 'itchyny/lightline.vim'
+Plug 'jiangmiao/auto-pairs'
 "
 " ----
 " End of Vundle declaration
