@@ -59,9 +59,14 @@ For more information about vimplug and how to manage your plugins, just head to 
 ##Bash config
 
 ##Termite config
+#### Fonts
+The default font is Fantasque Sans Mono, so if you want termite to use it, you'll want to download the font package. [Here's a link][aur-font] to the AUR package, and you can get a look at it [here][fontlibrary].
+
 #### ToDos
-* Change font (maybe)
+* ~~Change font (maybe)~~
 
 ## IRSSI config
 
 [vim-plug]: https://github.com/junegunn/vim-plug
+[aur-font]: https://aur.archlinux.org/packages/ttf-fantasque-sans
+[fontlibrary]: https://fontlibrary.org/en/font/fantasque-sans-mono
