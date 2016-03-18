@@ -30,9 +30,9 @@ alias stow='stow -d path/to/dotfiles'
 
 ## Awesome config
 #### ToDos
-* Theming (in particulary regarding the color of borders)
-* Considering using lain library to add extra layouts
-* Widgets
+* [ ] Theming (in particulary regarding the color of borders)
+* [ ] Considering using lain library to add extra layouts
+* [ ] Widgets
 
 ## Vim config
 It is advised to read the config file heavily commented so you can understand what is going on.
@@ -47,10 +47,10 @@ To get all that vim plugin goodness going, all you have to do is get into vim an
 ```
 For more information about vimplug and how to manage your plugins, just head to [vim-plug].
 #### ToDos
-* ~~Add support for plugins~~
-* autocompletion (YouCompleteMe?)
-* search utility (FZF?)
-* indent
+* [x] Add support for plugins~~
+* [ ] autocompletion (YouCompleteMe?)
+* [ ] search utility (FZF?)
+* [ ] indent
 
 ##### Plugins
 * lightline (status line)
@@ -63,7 +63,7 @@ For more information about vimplug and how to manage your plugins, just head to 
 The default font is Fantasque Sans Mono, so if you want termite to use it, you'll want to download the font package. [Here's a link][aur-font] to the AUR package, and you can get a look at it [here][fontlibrary].
 
 #### ToDos
-* ~~Change font (maybe)~~
+* [x] Change font 
 
 ## IRSSI config
 
