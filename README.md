@@ -50,6 +50,7 @@ For more information about vimplug and how to manage your plugins, just head to 
 * [x] Add support for plugins
 * [ ] autocompletion (YouCompleteMe?)
 * [ ] search utility (FZF?)
+* [ ] Add maps for easier use of viewports (splits)
 
 ##### Plugins
 * lightline (status line)
