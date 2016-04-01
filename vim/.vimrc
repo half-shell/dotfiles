@@ -4,7 +4,7 @@
 " Description: This .vimrc, although based on the example .vimrc given by the
 " vim wikia, is now heavily modified enough to be considered as a standalone.
 " It still is under development, and will be for a pretty long time. It uses
-" vundle as a plugin manager, for which you shouldn't worry too much as it is
+" plug-vim as a plugin manager, for which you shouldn't worry too much as it is
 " considered a git submodule and as it will be managed easily with git.
  
 " Set 'nocompatible' to ward off unexpected things that your distro might
@@ -15,7 +15,7 @@ set nocompatible
 " plug-vim initialization {{{1
 " Initialization and setup of plugins by plug-vim
 
-" Set the runtime path to include Vundle and initialize
+" Set the runtime path to include plug-vim and initialize
 " set rtp+=~/dotfiles/vim/bundle/
 call plug#begin('~/dotfiles/vim/.vim/plugged')
  
@@ -26,9 +26,10 @@ call plug#begin('~/dotfiles/vim/.vim/plugged')
 " The statusline, configured later on
 Plug 'itchyny/lightline.vim'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
 "
 " ----
-" End of Vundle declaration
+" End of plug-vim declaration
 call plug#end()
 
 "------------------------------------------------------------
