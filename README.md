@@ -23,7 +23,7 @@ stow vim
 ```
 That's all!
 
-Even better, i created an alias in my .bashrc so i don't have to cd in my dotfiles directory.
+Even better, i created an alias in my .bashrc so i don't have to cd in--  my dotfiles directory.
 ```bash
 alias stow='stow -d path/to/dotfiles'
 ```
@@ -36,7 +36,7 @@ alias stow='stow -d path/to/dotfiles'
 
 ## Vim config
 It is advised to read the config file heavily commented so you can understand what is going on.
-#### Advisory
+#### Advisory-- 
 Be also aware that vim is configured to gather the swap files in the ~/.tmp directory, which you have to create. Keep in mind that if you don't, vim won't produce any swap file.
 #### Plug-in manager
 I'm using [vim-plug] as my plugin manager, since Vundle is not maintained anymore, and updates/installations aren't done as quickly.
@@ -53,8 +53,9 @@ For more information about vimplug and how to manage your plugins, just head to 
 * [ ] Add maps for easier use of viewports (splits)
 
 ##### Plugins
-* lightline (status line)
-* auto-pairs (autoclose surrounders)
+* [lightline] (status line)
+* [auto-pairs] (autoclose surrounders)
+* [vim-surround] (surrounders management)
 
 ##Bash config
 
@@ -67,6 +68,10 @@ The default font is Fantasque Sans Mono, so if you want termite to use it, you'l
 
 ## IRSSI config
 
+## Luakit
+Luakit is a higly configurable browser, which you can find [here][luakit].
+
 [vim-plug]: https://github.com/junegunn/vim-plug
 [aur-font]: https://aur.archlinux.org/packages/ttf-fantasque-sans
 [fontlibrary]: https://fontlibrary.org/en/font/fantasque-sans-mono
+[luakit]: http://mason-larobina.github.io/luakit
