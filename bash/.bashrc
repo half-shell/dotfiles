@@ -30,6 +30,9 @@ export LESS_TERMCAP_md=$(printf '\e[1;34m')
 export LESS_TERMCAP_us=$(printf '\e[1;32m')
 export LESS_TERMCAP_so=$(printf '\e[1;44;1m')
 
+# Enabling cd when only a path is entered
+shopt -s autocd
+
 # Exports
 # Default editor
 export VISUAL=vim
@@ -45,7 +48,6 @@ alias pingc='ping 8.8.8.8 -c 10'
 alias stow='stow -d ~/dotfiles' # default file for stow
 alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
 alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
-alias ..='cd ..'
 alias dgnetctl='NETCTL_DEBUG=yes netctl' # Enabling debug with netctl
 alias grep='grep -i' # line number option
 alias wget='wget --directory-prefix=/home/brick/Téléchargements' # Default folder for wget
