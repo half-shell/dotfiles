@@ -5,6 +5,9 @@ half-shell's personnal configuration
 This repo is just a versionning solution of the config i'm currently using. I'll keep it
 up to date since it's the config files i'm using all the time. My main workspace is Arch Linux based, and i am using Awesome WM as my windows manager.
 
+## Todo
+* [ ] Get this README in a little wiki (maybe?)
+
 ## Get started
 All you need to do is
 ```bash
@@ -70,6 +73,12 @@ The default font is Fantasque Sans Mono, so if you want termite to use it, you'l
 
 ## Luakit
 Luakit is a higly configurable browser, which you can find [here][luakit].
+
+I've defined a default download location in the ```rc.lua``` file, so make sure you have the matching directory. For me it's ```~/Téléchargements``` (which i should change anyway).
+Also, i've inverted the 'change tabs' shortcut, as i found it inconsistent.
+
+## Git
+I have my ```.gitconfig`` in here, but that's just for the aliases. (for now at least).
 
 [vim-plug]: https://github.com/junegunn/vim-plug
 [aur-font]: https://aur.archlinux.org/packages/ttf-fantasque-sans
