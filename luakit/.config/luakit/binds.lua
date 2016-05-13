@@ -391,10 +391,10 @@ add_binds("normal", {
     key({"Shift","Control"}, "Tab", "Go to previous tab.",
         function (w) w:prev_tab() end),
 
-    key({}, "J", "Go to next tab (or `[count]` nth next tab).",
+    key({}, "K", "Go to next tab (or `[count]` nth next tab).",
         function (w, m) w:next_tab(m.count) end, {count=1}),
 
-    key({}, "K", "Go to previous tab (or `[count]` nth previous tab).",
+    key({}, "J", "Go to previous tab (or `[count]` nth previous tab).",
         function (w, m) w:prev_tab(m.count) end, {count=1}),
 
     buf("^gT$", "Go to previous tab.",
