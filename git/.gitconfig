@@ -1,0 +1,14 @@
+[user]
+	name = half-shell
+	email = michel.maubert.pro@gmail.com
+[core]
+	editor = vim
+[push]
+	default = simple
+[branch]
+	autosetuprebase = always
+[alias]
+        co = checkout
+        st = status
+        ci = commit
+        br = branch
