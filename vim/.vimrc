@@ -90,7 +90,6 @@ set hlsearch
 " script, <http://www.vim.org/scripts/script.php?script_id=1876>.
 " set nomodeline
  
- 
 "------------------------------------------------------------
 " Usability options {{{1
 "
@@ -162,7 +161,10 @@ set scrolloff=15
 " Note that the tmp directory has to exist for this to work,
 " otherwise vim won't create any swap files.
 set dir=~/.tmp
- 
+
+" Set a maximum text width and colored column at #110
+set tw=111
+set colorcolumn=110
  
 "------------------------------------------------------------
 " Indentation options {{{1
@@ -179,7 +181,6 @@ set expandtab
 " four characters wide.
 "set shiftwidth=4
 "set tabstop=4
- 
  
 "------------------------------------------------------------
 " Mappings {{{1
