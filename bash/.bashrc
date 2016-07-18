@@ -44,6 +44,7 @@ export TERM=xterm-256color
 # Aliases
 alias ls='ls --color=auto'
 alias ll='ls -al --color=auto'
+alias lt='ls -lt'
 alias pingc='ping 8.8.8.8 -c 10'
 alias stow='stow -d ~/dotfiles' # default file for stow
 alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
