@@ -28,6 +28,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
+Plug 'alvan/vim-closetag'
 "
 " ----
 " End of plug-vim declaration
