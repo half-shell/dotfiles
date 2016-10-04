@@ -165,6 +165,9 @@ set dir=~/.tmp
 " Set a maximum text width and colored column at #110
 set tw=111
 set colorcolumn=110
+
+" Start searching as typing
+set incsearch
  
 "------------------------------------------------------------
 " Indentation options {{{1
