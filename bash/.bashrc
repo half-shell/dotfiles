@@ -5,6 +5,12 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# Load up RVM if available
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+# RVM bash completion
+[[ -r "$HOME/.rvm/scripts/completion" ]] && source "$HOME/.rvm/scripts/completion"
+
 # Coloring
 # Enable coloring for Termite
 eval $(dircolors ~/.dircolors)
@@ -55,3 +61,5 @@ alias wget='wget --directory-prefix=/home/brick/Téléchargements' # Default fol
 
 # PS1
 PS1='\[$(tput bold)\][\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;6m\]\u\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;6m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;202m\]\W\[$(tput bold)\]\[$(tput bold)\]\[\033[38;5;15m\]]\[$(tput sgr0)\]\\$ \[$(tput sgr0)\]'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
