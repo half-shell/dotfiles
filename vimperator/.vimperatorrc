@@ -1,0 +1,2 @@
+" Sets the home row keys as hint
+set hintchars="qsdfghjklm"
