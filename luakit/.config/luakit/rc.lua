@@ -101,7 +101,7 @@ require "downloads"
 require "downloads_chrome"
 
 -- Set download location
-downloads.default_dir = os.getenv("HOME") .. "/Téléchargements"
+downloads.default_dir = os.getenv("HOME") .. "/Downloads"
 downloads.add_signal("download-location", function (uri, file)
     if not file or file == "" then
         file = (string.match(uri, "/([^/]+)$")
@@ -122,8 +122,8 @@ end)
 require "follow"
 
 -- Use a custom charater set for hint labels
---local s = follow.label_styles
---follow.label_maker = s.sort(s.reverse(s.charset("asdfqwerzxcv")))
+local s = follow.label_styles
+follow.label_maker = s.sort(s.reverse(s.charset("qsdfghjklm")))
 
 -- Match only hint labels
 --follow.pattern_maker = follow.pattern_styles.match_label
