@@ -261,6 +261,10 @@ globalkeys = awful.util.table.join(
             end
         end),
 
+    -- Functions keys
+    awful.key({  }, "#68", function () awful.util.spawn("amixer sset Master 5%-") end),
+    awful.key({  }, "#69", function () awful.util.spawn("amixer sset Master 5%+") end),
+
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(terminal) end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
