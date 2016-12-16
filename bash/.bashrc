@@ -48,15 +48,16 @@ export BROWSER=chromium
 export TERM=xterm-256color
 
 # Aliases
-alias ls='ls --color=auto'
-alias ll='ls -al --color=auto'
-alias lt='ls -lt'
-alias pingc='ping 8.8.8.8 -c 10'
-alias stow='stow -d ~/dotfiles' # default file for stow
-alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
-alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
 alias dgnetctl='NETCTL_DEBUG=yes netctl' # Enabling debug with netctl
 alias grep='grep -i' # line number option
+alias ll='ls -al --color=auto'
+alias ls='ls --color=auto'
+alias lt='ls -lt'
+alias minecraft-server='cd ~/minecraft && java -jar -Xmn4G btw_server.jar --nogui'
+alias minecraft='java -jar ~/Minecraft.jar > /dev/null &'
+alias pingc='ping 8.8.8.8 -c 10'
+alias rf='rm -rfI'
+alias stow='stow -d ~/dotfiles' # default file for stow
 alias wget='wget --directory-prefix=/home/brick/Téléchargements' # Default folder for wget
 
 # PS1
