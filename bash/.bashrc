@@ -47,6 +47,9 @@ export BROWSER=chromium
 # Color fix for lightline.vim plugin
 export TERM=xterm-256color
 
+# Allows FZF to index dotfiles
+export FZF_DEFAULT_COMMAND='find .'
+
 # Aliases
 alias dgnetctl='NETCTL_DEBUG=yes netctl' # Enabling debug with netctl
 alias grep='grep -i' # line number option

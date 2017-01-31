@@ -29,6 +29,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-surround'
 Plug 'alvan/vim-closetag'
+Plug 'junegunn/fzf'
+
 "
 " ----
 " End of plug-vim declaration
@@ -222,5 +224,9 @@ set noshowmode
 " Options
 let g:Lightline = {
   \}
+
+" FZF
+" Key binding for FZF
+noremap <C-p> :FZF<CR> 
  
 "------------------------------------------------------------
